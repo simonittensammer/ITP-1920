@@ -27,7 +27,7 @@ Provider: GitHub, Bitbucket, Gitlab
 
 ## Anwendungsfälle
 
-### Erstellen eines Projekts
+#### Erstellen eines Projekts
 
 ```
 git init
@@ -48,13 +48,13 @@ git remote add origin [ repo url ]
 git push -u origin master
 ```
 
-### Ein Projekt aus dem Repos downloaden (clonen)
+#### Ein Projekt aus dem Repos downloaden (clonen)
 
 ```
 git clone [ project-url ]
 ```
 
-### Neue und/oder geänderte Dateien ins das Repo einpflegen
+#### Neue und/oder geänderte Dateien ins das Repo einpflegen
 
 ```
 git add [ your files / . ]
@@ -99,50 +99,50 @@ git commit [ filename / . ]
 git remote rm [ filename ]
 ```
 
-### Status des Git-Working-Directories ansehen
+#### Status des Git-Working-Directories ansehen
 
 ```
 git status
 ```
 
-### Pretty Printing für Git-Logs
+#### Pretty Printing für Git-Logs
 
 ```
 git log --all --decorate --oneline --graph
 ```
 
-### Zweige für eigene Features erstellen
+#### Zweige für eigene Features erstellen
 
 ```
 git branch [ branchname ]
 ```
 
-### Branch wechseln
+#### Branch wechseln
 
 ```
 git checkout [ branchname ]
 ```
 
-### Branch mergen
+#### Branch mergen
 
 ```
 git merge [ branchname ]
 ```
 
-### Pull requests durchführen
+#### Pull requests durchführen
 
 ```
 git request-pull <start> [ repo url ] <end>
 ```
 
-### Commits taggen
+#### Commits taggen
 
 Szenario: Die einzelnen Releases (zB bei Auslieferung an den Kunden) sollen getagged werden
 
 Begriff der Baseline
 
-### Einen Release-Eintrag im Github erstellen (inkl. Doku)
+#### Einen Release-Eintrag im Github erstellen (inkl. Doku)
 
-### Verwerfen der lokalen Änderungen
+#### Verwerfen der lokalen Änderungen
 
 Was bedeutet `stash`
